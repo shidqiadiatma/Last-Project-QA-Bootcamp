@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class TestSearchEmployee(unittest.TestCase):  # TEST SCENARIO
 
-    def setUp(self): 
+    def setUp(self):
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
 
     def test_a_search_by_employeeName_employeeID(self): 
