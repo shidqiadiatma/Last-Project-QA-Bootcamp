@@ -9,7 +9,7 @@ class TestSearchEmployee(unittest.TestCase):  # TEST SCENARIO
     def setUp(self): 
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
 
-    def test_a_search_by_specific_username(self): 
+    def test_a_search_by_employeeName_employeeID(self): 
         # steps
         browser = self.browser #buka web browser
         browser.get("https://opensource-demo.orangehrmlive.com/ ") # buka situs
